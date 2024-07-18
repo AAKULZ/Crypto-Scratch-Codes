@@ -5,7 +5,7 @@ def hex_to_bin(hex_string):
               'C': "1100", 'D': "1101", 'E': "1110", 'F': "1111",
               'a': "1010", 'b': "1011", 'c': "1100", 'd': "1101",
               'e': "1110", 'f': "1111", ' ': " "}
-
+   
     binary_result = ""
     for char in hex_string:
         binary_result += binary_map[char]
